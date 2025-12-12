@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/hero-slider",
+  "version": "0.1.0",
+  "title": "Hero Slider",
+  "category": "design",
+  "icon": "slides",
+  "description": "A Hero Slider block with background video support.",
+  "supports": {
+    "html": false,
+    "align": [
+      "full",
+      "wide"
+    ]
+  },
+  "textdomain": "hero-banner-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "autoplay": {
+      "type": "boolean",
+      "default": true
+    },
+    "interval": {
+      "type": "number",
+      "default": 5000
+    }
+  }
+}

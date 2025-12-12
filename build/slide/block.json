@@ -1,0 +1,51 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/hero-slide",
+  "version": "0.1.0",
+  "title": "Hero Slide",
+  "category": "design",
+  "icon": "cover-image",
+  "description": "A single slide for the Hero Slider.",
+  "parent": [
+    "create-block/hero-slider"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "hero-banner-block",
+  "attributes": {
+    "mediaId": {
+      "type": "number",
+      "default": 0
+    },
+    "mediaType": {
+      "type": "string",
+      "default": ""
+    },
+    "mediaUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "heading": {
+      "type": "string",
+      "default": "Slide Heading"
+    },
+    "description": {
+      "type": "string",
+      "default": "Slide Description"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Learn More"
+    },
+    "buttonUrl": {
+      "type": "string",
+      "default": "#"
+    },
+    "overlayOpacity": {
+      "type": "number",
+      "default": 50
+    }
+  }
+}
