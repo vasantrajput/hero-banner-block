@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "create-block/hero-slider",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "title": "Hero Slider",
   "category": "design",
   "icon": "slides",
@@ -27,6 +27,95 @@
     "interval": {
       "type": "number",
       "default": 5000
+    },
+    "contentAlign": {
+      "type": "string",
+      "default": "center"
+    },
+    "contentVerticalAlign": {
+      "type": "string",
+      "default": "center"
+    },
+    "overlayColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "overlayOpacity": {
+      "type": "number",
+      "default": 0.4
+    },
+    "ctaAlign": {
+      "type": "string",
+      "default": "center"
+    },
+    "ctaShape": {
+      "type": "string",
+      "default": "rectangle"
+    },
+    "ctaBgColor": {
+      "type": "string"
+    },
+    "ctaTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "ctaArrowEnabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "ctaArrowPosition": {
+      "type": "string",
+      "default": "right"
+    },
+    "ctaArrowColor": {
+      "type": "string"
+    },
+    "paginationEnabled": {
+      "type": "boolean",
+      "default": false
+    },
+    "paginationType": {
+      "type": "string",
+      "default": "dots"
+    },
+    "paginationPosition": {
+      "type": "string",
+      "default": "bottom-center"
+    },
+    "paginationColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "contentPadding": {
+      "type": "object",
+      "default": {
+        "top": "20px",
+        "right": "20px",
+        "bottom": "20px",
+        "left": "20px"
+      }
+    },
+    "contentMaxWidth": {
+      "type": "string",
+      "default": "1200px"
+    },
+    "headingFontSize": {
+      "type": "string"
+    },
+    "subheadingFontSize": {
+      "type": "string"
+    },
+    "headingTag": {
+      "type": "string",
+      "default": "h2"
+    },
+    "ctaOpenInNewTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "ctaRelNoFollow": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

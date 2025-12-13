@@ -3,7 +3,7 @@
  * Plugin Name:       Hero Banner Block
  * Plugin URI:        https://github.com/vasantrajput/hero-banner-block
  * Description:       A Gutenberg block for a Hero Banner with slider options and background video support.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            VasantRajput
  * Author URI:        https://profiles.wordpress.org/vasantrajput/
  * Text Domain:       hero-banner-block
@@ -27,13 +27,6 @@ function hero_banner_block_init() {
 	register_block_type( __DIR__ . '/build' );
 
 	// Register the Slide (Child) Block
-    // We will place the child block build in a subdirectory or handle logic to register both.
-    // However, wp-scripts build typically builds everything into 'build'.
-    // If we have multiple blocks, we often have multiple block.jsons.
-    // Let's assume we structure it so `build/slide` exists or we register by path.
-    
-    // Actually, usually we register the top folder and it finds block.json.
-    // For multiple blocks, we should register each.
     register_block_type( __DIR__ . '/build/slide' );
 }
 add_action( 'init', 'hero_banner_block_init' );
