@@ -31,9 +31,21 @@
       "type": "string",
       "default": "Slide Heading"
     },
+    "headingLevel": {
+      "type": "string",
+      "default": "h2"
+    },
+    "headingColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
     "description": {
       "type": "string",
       "default": "Slide Description"
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": "#ffffff"
     },
     "buttonText": {
       "type": "string",

@@ -6,7 +6,7 @@ Tags: gutenberg, block, hero banner, slider, video background
 Requires at least: 5.8
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.4
 License: GPL-2.0+
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,30 @@ Currently, only self-hosted MP4 videos are supported.
 3. Slider settings interface  
 
 == Changelog ==
+
+= 1.0.4 =
+* Added: Image and Video preview in Inspector controls.
+* Added: Navigation Arrow styling options (Shape: Square, Circle, Rounded and Background Color).
+* Added: "Progress" pagination style.
+* Added: Hover effects for CTA buttons (Background Color and Text Color).
+* Added: Typography options for slides (Heading Level H1-H6, Heading Color, Description Color).
+* Fix: Slides visibility issues in the Backend Editor.
+* Fix: Overlay opacity and color application logic.
+* Fix: Resolved deprecation warnings for Editor controls.
+* Fix: Resolve ReferenceError in Editor.
+
+= 1.0.3 =
+* Fix: Content visibility issues.
+* Fix: Image stretching on large screens.
+* Update: Replaced CTA arrows with Slider Navigation Arrows (Prev/Next).
+* Fix: Pagination logic.
+
+= 1.0.2 =
+* Fix: Console warning for deprecated component settings.
+* Update: Edit settings UI improvements.
+
+= 1.0.1 =
+* Add more edit setting on Slider settings.
 
 = 1.0.0 =
 * Initial release.
